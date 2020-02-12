@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* MENU SUPERIOR DE NAVEGACIÓN */
+#menu{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* GALERIA */
+.carousel-control-next:hover{
+    background: -webkit-linear-gradient(right, rgb(0,0,0,0.5) 75%, rgb(0,0,0,0));
+    background: -o-linear-gradient(right, rgb(0,0,0,0.5) 75%, rgb(0,0,0,0));
+    background: linear-gradient(right, rgb(0,0,0,0.5) 75%, rgb(0,0,0,0));
+    transition: 0.5s all;
+}
+
+.carousel-control-prev:hover{
+    background: -webkit-linear-gradient(left, rgb(0,0,0,0.5) 75%, rgb(0,0,0,0));
+    background: -o-linear-gradient(left, rgb(0,0,0,0.5) 75%, rgb(0,0,0,0));
+    background: linear-gradient(left, rgb(0,0,0,0.5) 75%, rgb(0,0,0,0));
+    transition: 0.5s all;
+}
+
+
+/* DELEGADOS */
+.col-pais{
+}
+
+/* FOOTER DEL HOST */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+    display:none;
+}
